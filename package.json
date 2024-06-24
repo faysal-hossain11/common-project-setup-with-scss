@@ -1,0 +1,14 @@
+{
+    "postcss": {
+        "syntax": "postcss-scss",
+        "map": false,
+        "plugins": {
+            "css-declaration-sorter": {
+                "order": "smacss"
+            }
+        }
+    },
+    "scripts": {
+        "start": "sass --watch ./assets/scss/main.scss:./assets/css/style.css"
+    }
+}

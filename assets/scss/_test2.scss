@@ -1,0 +1,13 @@
+.heading2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 100px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    &:hover{
+        color: red;
+        background: blue;
+    }
+}
